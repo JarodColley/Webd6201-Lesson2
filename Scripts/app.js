@@ -43,6 +43,22 @@
 
         let brand = document.getElementsByClassName("navbar-brand")[0];
         brand.textContent ="Client Side Scripting";
+
+
+        let myContent = document.createElement("div");
+        myContent.setAttribute("id", "myContent");
+
+        let myFirstParagraph = document.createElement("p");
+        myFirstParagraph.textContent = "This is my first really short paragraph";
+
+        myContent.appendChild(myFirstParagraph);
+
+        mainContent.appendChild(myContent);
+
+        let middleElement = document.createElement("p");
+        middleElement.textContent = " this is the middle paragraph";
+
+        
     }
 
 
